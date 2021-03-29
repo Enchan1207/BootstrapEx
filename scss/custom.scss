@@ -1,0 +1,13 @@
+//
+// カスタムscss
+//
+
+$body-bg: #222;
+$body-color: #1a1;
+
+$theme-colors: (
+    "primary": rgb(87, 255, 196),
+);
+
+// @import "../node_modules/bootstrap/scss/bootstrap"; // with npm
+@import "../vendor/twbs/bootstrap/scss/bootstrap"; // with composer

@@ -1,0 +1,10 @@
+// べべべ別に.vscodeをignoreし忘れたとかそういうんじゃないんだからねっ
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ]
+}
