@@ -8,12 +8,70 @@
 
     <link rel="stylesheet" href="css/custom.css">
     <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <h1>Hello, Bootstrap!</h1>
-    <div class="alert alert-primary" role="alert">
-         <a href="https://getbootstrap.jp/" class="alert-link">Bootstrap</a>, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+    <div class="container my-2 p-3 bg-background">
+        <h1>Hello, Bootstrap! <span class="badge badge-secondary">v4.3.1</span> </h1>
+
+        <!-- bread-crum -->
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">ここのアイテム自分で書いてかなきゃいけないの地味に面倒</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    BootstrapEx
+                </li>
+            </ol>
+        </nav>
+
+        <!-- general html elements -->
+        <h2>What's Bootstrap?</h2>
+        <p>
+            <a href="https://getbootstrap.jp/" class="alert-link">Bootstrap</a>, the world’s most popular front-end open
+            source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components,
+            and powerful JavaScript plugins.
+        </p>
+
+        <!-- alert -->
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            Alerrrrrrrrrt
+            <!-- close button -->
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <!-- badge with button -->
+        <button class="btn btn-primary">
+            Notifications
+            <span class="badge badge-light">999+</span>
+        </button>
+
+        <!-- button group -->
+        <div class="btn-group">
+            <button class="btn btn-primary" type="button">
+                1
+            </button>
+            <button class="btn btn-primary" type="button">
+                2
+            </button>
+            <button class="btn btn-primary" type="button">
+                3
+            </button>
+        </div>
     </div>
 </body>
 
