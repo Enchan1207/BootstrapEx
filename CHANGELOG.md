@@ -13,3 +13,7 @@
  - jQuery, bootstrap.min.jsをロード [(index.html: 12-18)](index.html#L12-L18)
  - scssにいくつかカスタム設定を記述(bsの設定をオーバーライドしちゃってるのでまずいかも?)
  - コンポーネントをいくつか追加
+
+## [Add] keep compiled CSS under git management
+
+ - `.gitignore`を修正、コンパイル済みのCSSをgitの管理下におくよくに変更
